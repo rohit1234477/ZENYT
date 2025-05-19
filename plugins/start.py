@@ -104,7 +104,7 @@ async def start_command(client: Client, message: Message):
             "<b>⛔️ You are Bᴀɴɴᴇᴅ from using this bot.</b>\n\n"
             "<i>Contact support if you think this is a mistake.</i>",
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("📞 Contact Support", url=f"https://t.me/Clutch008")]]
+                [[InlineKeyboardButton("📞 Contact Support", url=f"https://t.me/ROHITREDDY69")]]
             )
         )
 
@@ -178,7 +178,7 @@ async def start_command(client: Client, message: Message):
             try:
                 # Construct caption for videos/documents
                 if msg.video or msg.document:
-                    description = caption_content or filename or "<b>Video from @Anime_Telugu_English_VS</b>"
+                    description = caption_content or filename or "<b>Video from @Koianimes</b>"
                     caption = f"{description}\n{CUSTOM_CAPTION}"
                 else:
                     caption = caption_content or text_content  # Use original caption/text for non-media
@@ -374,8 +374,8 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🌟 ᴍᴏʀᴇ ᴄʜᴀɴɴᴇʟs", url="https://t.me/animepulse_multi"),
-                    InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/animepulse_multi")
+                    InlineKeyboardButton("🌟 ᴍᴏʀᴇ ᴄʜᴀɴɴᴇʟs", url="https://t.me/koianimes"),
+                    InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/koianimes")
                 ],
                 [
                     InlineKeyboardButton("ℹ️ ᴀʙᴏᴜᴛ", callback_data="about"),
@@ -452,7 +452,7 @@ async def not_joined(client: Client, message: Message):
                 except Exception as e:
                     logger.error(f"Error with chat {chat_id}: {e}")
                     return await temp.edit(
-                        f"<b><i>! Eʀʀᴏʀ, Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ sᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇs @Clutch008</i></b>\n"
+                        f"<b><i>! Eʀʀᴏʀ, Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ sᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇs @ROHITREDDY69</i></b>\n"
                         f"<i>Reason: {e}</i>"
                     )
 
